@@ -876,6 +876,46 @@
       "settings": {
         "foreground": "#000000"
       }
+    },
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.quoted.docstring.multi",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.multi.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#aaa",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#44",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#222",
+        "fontStyle": "italic bold underline"
+      }
+    },
+    {
+      "scope": ["support.function"],
+      "settings": {
+        "foreground": "#555",
+        "fontStyle": "italic bold"
+      }
     }
   ]
 }
