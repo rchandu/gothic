@@ -1,0 +1,21 @@
+{
+  "name": "gothic",
+  "displayName": "gothic",
+  "description": "Bun Gothic—black, gray, blood-red; no distractions, pure intensity.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gothic",
+        "uiTheme": "vs",
+        "path": "./themes/Gothic-color-theme.json"
+      }
+    ]
+  }
+}
