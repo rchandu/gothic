@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gothic",
+        "label": "Gothic Light",
         "uiTheme": "vs",
         "path": "./themes/Gothic-light.json"
+      },
+      {
+        "label": "Gothic Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gothic-dark.json"
       }
     ]
   }
