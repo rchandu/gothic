@@ -2,13 +2,15 @@
   "name": "gothic",
   "displayName": "gothic",
   "description": "Gothic—black, gray, blood-red; no distractions.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Themes"
   ],
+  "publisher": "rama-3572",
+  "icon": "images/logo.png",
   "contributes": {
     "themes": [
       {
